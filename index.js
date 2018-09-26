@@ -29,9 +29,9 @@ document.addEventListener("DOMContentLoaded", function(event) {
   init()
 })
 
-// function createRecipe() {
-//
-// }
+function createRecipe() {
+
+}
 //
 // function dislpayEditForm() {
 //
