@@ -30,8 +30,8 @@ document.addEventListener("DOMContentLoaded", function(event) {
 })
 
 function createRecipe() {
-  let name = document.getElementById("name").value;
-  // let template = Handlebars.compile(document.getElementById("recipe-form-template").innerHTML);
+  // let name = document.getElementById("name").value;
+  let template = Handlebars.compile(document.getElementById("recipe-form-template").innerHTML);
 }
 
 function displayEditForm() {
