@@ -31,11 +31,11 @@ document.addEventListener("DOMContentLoaded", function(event) {
 
 function createRecipe() {
   // let name = document.getElementById("name").value;
-  let template = Handlebars.compile(document.getElementById("recipe-form-template").innerHTML);
+  let template = Handlebars.compile(document.getElementById("recipe-template").innerHTML);
 }
 
 function displayEditForm() {
-  let template = Handlebars.compile(document.getElementById("recipe-template").innerHTML);
+  let template = Handlebars.compile(document.getElementById("recipe-form-template").innerHTML);
 }
 
 function updateRecipe() {
