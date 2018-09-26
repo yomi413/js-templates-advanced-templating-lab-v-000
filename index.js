@@ -30,6 +30,7 @@ document.addEventListener("DOMContentLoaded", function(event) {
 })
 
 function createRecipe() {
+  let name = document.getElementByTagName("name").value;
   let template = Handlebars.compile(document.getElementById("recipe-form-template").innerHTML);
 }
 
