@@ -29,13 +29,13 @@ document.addEventListener("DOMContentLoaded", function(event) {
   init()
 })
 
-function createRecipe() {
-
-}
-
-function dislpayEditForm() {
-  
-}
+// function createRecipe() {
+// 
+// }
+// 
+// function dislpayEditForm() {
+//   
+// }
 
 // var recipe = {
 //   description: 'yummy chicken noodle soup',
