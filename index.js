@@ -32,10 +32,10 @@ document.addEventListener("DOMContentLoaded", function(event) {
 function createRecipe() {
 
 }
-//
-// function dislpayEditForm() {
-//
-// }
+
+function dislpayEditForm() {
+
+}
 
 // var recipe = {
 //   description: 'yummy chicken noodle soup',
