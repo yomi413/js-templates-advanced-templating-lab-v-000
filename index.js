@@ -30,7 +30,7 @@ document.addEventListener("DOMContentLoaded", function(event) {
 })
 
 function createRecipe() {
-
+  let template = Handlebars.compile(document.getElementById("recipe-form-template").innerHTML);
 }
 
 function displayEditForm() {
@@ -38,7 +38,7 @@ function displayEditForm() {
 }
 
 function updateRecipe() {
-  
+
 }
 
 // var recipe = {
