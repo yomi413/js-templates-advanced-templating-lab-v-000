@@ -23,9 +23,9 @@ function createRecipe() {
 }
 
 function displayEditForm() {
-  let template = Handlebars.compile(document.getElementById("recipe-template").innerHTML);
+  let template = Handlebars.compile(document.getElementById("recipe-form-template").innerHTML);
 }
 
 function updateRecipe() {
-  displayEditForm()
+  let template = Handlebars.compile(document.getElementById("recipe-template").innerHTML);
 }
