@@ -33,7 +33,7 @@ function createRecipe() {
 
 }
 
-function dislpayEditForm() {
+function displayEditForm() {
 
 }
 
