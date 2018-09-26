@@ -29,6 +29,10 @@ document.addEventListener("DOMContentLoaded", function(event) {
   init()
 })
 
+function createRecipe() {
+  
+}
+
 // var recipe = {
 //   description: 'yummy chicken noodle soup',
 //   ingredient: [
