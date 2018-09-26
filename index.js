@@ -37,6 +37,10 @@ function displayEditForm() {
   let template = Handlebars.compile(document.getElementById("recipe-template").innerHTML);
 }
 
+function updateRecipe() {
+  
+}
+
 // var recipe = {
 //   description: 'yummy chicken noodle soup',
 //   ingredient: [
