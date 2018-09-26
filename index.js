@@ -40,15 +40,3 @@ function displayEditForm() {
 function updateRecipe() {
   displayEditForm()
 }
-
-// var recipe = {
-//   description: 'yummy chicken noodle soup',
-//   ingredient: [
-//     {quantity: "1 cup", name: 'chicken'},
-//     {quantity: "3 nanoliters", name: 'stock'},
-//     {quantity: "12", name: 'noodles'}
-//   ]
-// }
-
-// var template = Handlebars.compile(document.getElementById("my-template").innerHTML);
-// var html = template(recipe);
