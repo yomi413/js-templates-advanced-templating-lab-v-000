@@ -39,7 +39,6 @@ function displayEditForm() {
 
 function updateRecipe() {
   displayEditForm()
-  // let template = Handlebars.compile(document.getElementById("recipe-template").innerHTML);
 }
 
 // var recipe = {
