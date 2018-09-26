@@ -18,6 +18,11 @@ function init() {
     var template = Handlebars.compile(document.getElementById("recipe-template").innerHTML);
     var html = template({name: 'Gordon Ramsay'});
   }
+
+  Handlebars.registerPartial('recipeFormPartial', document.getElementById("recipe-details-partial").innerHTML)
+  function renderMain() {
+    let formTemplate = Handlebars.compile(document.getElementById("recipe-form-template").innerHTML);
+  }
   //put any page initialization/handlebars initialization here
 }
 document.addEventListener("DOMContentLoaded", function(event) {
